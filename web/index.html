@@ -331,7 +331,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="send" onclick="SendEmail()" value="Send Message" class="primary" /></li>
 											<li><input type="reset" value="Reset" /></li>
 										</ul>
 									</form>
@@ -343,7 +343,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Untitled. Designed in Collaboration with: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
@@ -372,20 +372,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 			
 				const firebaseConfig = {
-					apiKey: "AIzaSyAmjUyxX9ZXvEaObJjoFBbvrfISYVKqWEs",
-					authDomain: "social-seafarer.firebaseapp.com",
-					databaseURL: "https://social-seafarer-default-rtdb.firebaseio.com",
-					projectId: "social-seafarer",
-					storageBucket: "social-seafarer.appspot.com",
-					messagingSenderId: "529702087158",
-					appId: "1:529702087158:web:8de4a23a1ad5419ab1ffd7",
-					measurementId: "G-7QMRDELZPM"
+					apiKey: "AIzaSyBQCDwqV85zPaBUDw5PPZyn5cVOH-Z-zpM",				  
+					authDomain: "ubc-hackcamp2023.firebaseapp.com",				  
+					databaseURL: "https://ubc-hackcamp2023-default-rtdb.firebaseio.com",				  
+					projectId: "ubc-hackcamp2023",				  
+					storageBucket: "ubc-hackcamp2023.appspot.com",				  
+					messagingSenderId: "874862540512",				  
+					appId: "1:874862540512:web:aa0c6b27cec2b361338285"
 				};
-			
 			
 				// Initialize Firebase
 				const app = initializeApp(firebaseConfig);
-				const analytics = getAnalytics(app);
+				//const analytics = getAnalytics(app);
 			
 				import {getDatabase, ref, get, set, child, update, remove}
 				from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
@@ -394,9 +392,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				
 				const db = getDatabase();
 			
-				var emailBtn = document.getElementById("send");
-				var contactus_email = document.getElementById("contactus_email");
+				//var emailBtn = document.getElementById("send");
 				var contactus_name = document.getElementById("contactus_name");
+				var contactus_email = document.getElementById("contactus_email");
 				var contactus_body = document.getElementById("contactus_body");
 			
 				function SendEmail() {
@@ -408,13 +406,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					})
 					.then(()=>{
 						//reqID++;
-						alert("Sent successfully");
+						alert("Sent successfully!");
 					})
 					.catch((error)=>{
 						alert(error);
 					});
 				}
-				emailBtn.addEventListener('click', SendEmail);
+				//emailBtn.addEventListener('click', SendEmail);
 			
 			</script>
 
