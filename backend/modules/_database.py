@@ -1,13 +1,13 @@
-# grab stuff from database
+# grab stuff from databas s
 
+import smtplib, json
 from time import sleep
-import json
 
-import sys
+with open('json/config.json') as config_file:
+    data = json.load(config_file)
 
-sys.path.insert(1, '/apps')
 
-#dbgrab#
+#firebase db stuff
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
@@ -19,49 +19,12 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': "https://social-seafarer-default-rtdb.firebaseio.com"
 })
 
-def maincode():
-    url_ref = db.reference("/requests/" + str(x) + "/url/")
-    email_ref = db.reference("/requests/" + str(x) + "/email/")
-    #key_ref = db.reference("/requests/" + str(x) + "/key/")
-    ntc_ref = db.reference("/requests/" + str(x) + "/num_top_comments/")
-    sv_ref = db.reference("/requests/" + str(x) + "/sens_vadar/")
-    sr_ref = db.reference("/requests/" + str(x) + "/sens_rake/")
+x=1
+email_ref = db.reference("/requests/" + str(x) + "/email/")
+name_ref = db.reference("/requests/" + str(x) + "/name/")
+body_ref = db.reference("/requests/" + str(x) + "/body/")
 
+email = str(email_ref.get())
+name = str(name_ref.get())
+body = str(body_ref.get())
 
-    url = url_ref.get()
-    email = email_ref.get()
-
-
-    request_data = {
-        "url": url,
-        "email": email,
-        "num_top_comments": num_top_comments,
-        "sens_vadar": sens_vadar,
-        "sens_rake": sens_rake,
-    }
-
-    with open('json/request.json', 'w') as f:
-        json.dump(request_data, f)
-
-    #main#
-    import modules._database as redditscrapper
-    
-    
-    
-url_ref = db.reference("/requests/" + str(x) + "/url/")
-new = url_ref.get()
-old = new
-
-while True:
-    url_ref = db.reference("/requests/" + str(x) + "/url/")
-    new = url_ref.get()
-    sleep(2.0)
-    
-    print(".")
-    
-    if new == old:
-        continue
-    else:
-        print("new request")
-        old = new
-        maincode()

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ubc-hackcamp2023",
+  "private_key_id": "00bb405cd2cb3fd338ee37b165a1eae81190e032",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCa8rziMP/Wn6Ie\nmn7bzMmkm0NLdc23Okk077+xGEgRiGhDDM+7CejIuMBjjXVy1A4j2jtxWdOhIHUj\nxmFodrZtZ/mOk+Tzmzn8B/NwwkXhGFzCZfbmD2YThWxBF+DsgZCa6Po1Qono5xZT\nDv4y2t+ExCD0KGleLbMdnEFh29M9c3mRSZe1pJM/CkxqUP9hcTHRhDb4PazdGFfL\nrJHNJ25TNd4kCEmWY5GuvS8b8tPvyA1anti2VMuofzH8tkWzjBJ+dyBWRiJIvWWa\nFe0ahcRzouLBCL51e8Q7A950X9HkiZdCxI7D/Ms5PJdt3fXBJxoaS+ergx6ckCN4\nae6itJbNAgMBAAECggEALxhrd7ab9FCF1pZvy3/1o/37GMMAGVpyaNAcLAgs04Np\n6UNKGlf7NJMPCtMyqQmyGIyat6utStKSOCLydW1rqlpJfGAQXUjHeYazJAkwcyfT\n/dQ/FJMGnBVYH3rSByCkYqlAb5K/VxZx7yHl+nATMwfn2j40NIdgYzYcm1FU5d6r\ncP+LQIZ3ao8gkb6FzTI11UNXILuFO9v5odT223WigMGlno3EopOajxSoNZbRzmdy\nSTc/2hu8evw7gcdjYNeAAts460LmXj3IE6pNI9So0FBRXv2+3yz3mJs1gkrGhvBT\n86z1hgLhWGO1MRyQs+6TY+4zR8QQu+MHRowg/hJWEwKBgQDVMEYe2HGYSHZleCV2\nVxUNdM2jXEiF8w3WMpDFxmkjJZwwliHMeqNrR9ymWLzPe/wLLPdVLybb8XCwlQM0\nTYDR0bmgmlWkSs3JElqHTSLSpGvdZgqbEvS/+RqUqDDo+e3g3Fes1cf57rYucAar\nHJScZsGYbFIsF4lgToRn7iyd4wKBgQC6EGhfzwiid0L0MPtQppQ2uKBjtbrYGkBp\ntY39E3DhuykAhBvYvkOYgo6TNTSZPywZMztGkVTHk4Z7nySn6+i8Gse4DpqkFSg5\nw+5bdhztLuNPDl6FgkKpRdB1DnZeJauUUTibByPRCXtUtRpzXrnWwDlIexhXu+mr\nnkocF1MXjwKBgQCFA1ucvzsQ4pVMdgwZq/esr6XmORvex2lorZ/6ZfMPRNYQ0ntA\nE3yG4Q1glJkpc5gseN/QvFyoehnvcunO5lRrlUkWVXT9ztZakCL/rDb/6iqKtrID\nU251oLze55msotOyqofhhHkDDdeJXcgrVue6NbqwmVUjwYOrHRIrrkUUNQKBgEGt\nGvp+nMCkMjj5tSvxsK1kHBE2C37OPWBS2oyzOQwkwUNSXnXyKvABXYwuoqNZPhqj\nD9BH6lIMC9NFCG5RgjQri8W3OfSjFzDUrSURmwJJo6i7HLgpk5gmcX9wHG39BAR1\navKl4YmevC7ZQj3o+NYJwe6IrL4DMWcHl4c04HqXAoGAKQJNrOQ77W5wXfrP7+BG\nQp08/zlgsQDyARt2CRKqdGYpeAaKjR0rw71Fvd45/xhREg4STy54b4aETL0EcG7J\nOU3yJPvlWMgtdXAGKRq5Tvb5CQIxmkddaLwsaX/qXra+FKss0oOEiMboEOb+qlZP\nQGaVVP+nxyvStudxSTPt+zk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ruf5e@ubc-hackcamp2023.iam.gserviceaccount.com",
+  "client_id": "106947945698463175986",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ruf5e%40ubc-hackcamp2023.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
